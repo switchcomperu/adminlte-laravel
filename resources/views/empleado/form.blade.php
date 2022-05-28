@@ -36,6 +36,10 @@
     <input type="text" class="form-control" name="ApellidoMaterno" value="{{ isset($empleado->ApellidoMaterno)?$empleado->ApellidoMaterno:'' }}" id="ApellidoMaterno">
 </div>
 
+<div class="form-group">
+    <label for="Sexo"> Sexo </label>
+    <input type="text" class="form-control" name="Sexo" value="{{ isset($empleado->Sexo)?$empleado->Sexo:'' }}" id="Sexo">
+</div>
 
 <div class="form-group">
     <label for="Correo"> Correo </label>

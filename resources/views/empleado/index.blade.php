@@ -29,6 +29,7 @@
                                     <th>Nombre</th>
                                     <th>ApellidoPaterno</th>
                                     <th>ApellidoMaterno</th>
+                                    <th>Sexo</th>
                                     <th>correo</th>
                                     <th>Acciones</th>
                                 </tr>
@@ -47,6 +48,7 @@
                                     <td>{{ $empleado->Nombre }}</td>
                                     <td>{{ $empleado->ApellidoPaterno }}</td>
                                     <td>{{ $empleado->ApellidoMaterno }}</td>
+                                    <td>{{ $empleado->Sexo }}</td>
                                     <td>{{ $empleado->Correo }}</td>
                                     <td>
 
